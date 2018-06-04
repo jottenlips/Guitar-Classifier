@@ -9,4 +9,4 @@ sg (score=0.00005)
 
 
 
-<img src="IMG_1E31BD83DA24-1.jpeg" width="100">
+<img src="IMG_1E31BD83DA24-1.jpeg" width="300">
