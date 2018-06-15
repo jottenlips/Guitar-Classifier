@@ -1,7 +1,7 @@
 from PIL import Image
 import os, sys
 
-path = "../tf_files/Guitars/Mustang/"
+path = "../tf_files/Guitars/Stratocaster/"
 dirs = os.listdir( path )
 final_size = 244;
 
