@@ -7,7 +7,11 @@ coreml_model = tf_converter.convert(tf_model_path = '/Users/john/ml-exercise/tf_
 	output_feature_names = ['final_result:0'],
 	input_name_shape_dict = {'input:0':[1,224,224,4]},
 	image_input_names = ['input:0'],
-	class_labels = '/Users/john/ml-exercise/tf_files/retrained_labels.txt'
+	class_labels = '/Users/john/ml-exercise/tf_files/retrained_labels.txt',
+	image_scale=2/255.0,
+red_bias=-1,
+green_bias=-1,
+blue_bias=-1
 )
 
 
