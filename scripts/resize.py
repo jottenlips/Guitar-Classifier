@@ -1,7 +1,7 @@
 from PIL import Image
 import os, sys
 
-path = "../tf_files/Guitars/Stratocaster/"
+path = "../tf_files/Guitars/Fender Stratocaster/"
 dirs = os.listdir( path )
 final_size = 244;
 
@@ -19,6 +19,7 @@ def resize():
         	new_im = Image.new("RGB", (final_size, final_size))
         	new_im.paste(im, ((final_size-new_image_size[0])//2, (final_size-new_image_size[1])//2))
         	new_im.save(f + 'resized.jpg', 'JPEG', quality=90)
+        print item
 resize()
 
 
