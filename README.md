@@ -17,6 +17,18 @@ pip install -tfcoreml
 ```IMAGE_SIZE=224```
 ```ARCHITECTURE="mobilenet_0.50_${IMAGE_SIZE}"```
 
+## Download images 
+
+I used
+https://github.com/hardikvasa/google-images-download CLI
+
+## Resize Images
+
+change the paths in resize.py
+
+```cd scripts```
+```python resize.py```
+
 ## Retrain Model on your images
 
 ```
@@ -40,7 +52,7 @@ python -m scripts.label_image \
 
  ```tensorboard --logdir tf_files/training_summaries &```
 
-# Conversion
+# Conversion to CoreML
  
 ```cd scripts```
 
