@@ -5,7 +5,7 @@ Machine Learning for Guitars
 
 ```pip install virtualenv```
 
-```irutalenv env```
+```virutalenv env```
 
 ```
 source env/bin/activate
