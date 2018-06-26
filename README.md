@@ -1,5 +1,6 @@
 # Guitar-Classifier
-Machine Learning for Guitars
+
+Machine Learning for Guitars - this is an elaboration on tensorflow for poets 
 
 # Tensorflow 
 
