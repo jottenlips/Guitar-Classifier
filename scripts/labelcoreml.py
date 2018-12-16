@@ -35,7 +35,7 @@ import numpy as np
 # response = requests.get(img_url)
 # img = PIL.Image.open(response.content)
 # imshow(np.asarray(img))
-im = Image.open("../../Desktop/mine.jpg")
+im = Image.open("../../Desktop/sg.jpg")
 # Run CoreML prediction
 # Pay attention to '__0'. We change ':0' to '__0' to make sure 
 # MLModel's generated Swift/Obj-C code is semantically correct
