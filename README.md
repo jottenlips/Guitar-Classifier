@@ -70,4 +70,6 @@ Change all paths to where you want to read/write your model and test your images
 From Core ML in ArKit, my fork from the presentation will be up soon.
 https://github.com/hanleyweng/CoreML-in-ARKit
 
+https://github.com/jottenlips/GuitarClassifier-iOS My fork of that repo.
+
 <img src="IMG_1E31BD83DA24-1.jpeg" width="300">
